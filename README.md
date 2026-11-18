@@ -1,5 +1,7 @@
 # ML feature engineering pipeline (2020)
 
+[![tests](https://github.com/Avinash186200/ml-feature-engineering-pipeline-2020/actions/workflows/ci.yml/badge.svg)](https://github.com/Avinash186200/ml-feature-engineering-pipeline-2020/actions/workflows/ci.yml)
+
 This is the data preparation side of my early trading ML work. It takes raw OHLC price bars for many currency
 pairs and timeframes, builds a wide set of technical indicator features, joins them to the trade entries of a
 rule-based strategy, and then prepares model-ready data: standardisation per segment, K-means clustering, time
